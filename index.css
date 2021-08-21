@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#mine {
+    margin: 60px auto;
+}
+
+.level {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.level button {
+    padding: 5px 15px;
+    background: darkgoldenrod;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    /* outline: none; */
+    cursor: pointer;
+}
+
+.level button.active {
+    background-color: crimson;
+}
+
+table {
+    border-spacing: 1px;
+    background-color: darkgrey;
+    margin: 0 auto;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+td.zero {
+    border-color: #ccc;
+    background: #ccc;
+}
+
+td.one {
+    border-color: #ccc;
+    background: #ccc;
+    color: aquamarine;
+}
+
+td.two {
+    border-color: #ccc;
+    background: #ccc;
+    color: blue;
+}
+
+td.three {
+    border-color: #ccc;
+    background: #ccc;
+    color: chocolate;
+}
+
+td.four {
+    border-color: #ccc;
+    background: #ccc;
+    color: cyan;
+}
+
+td.five {
+    border-color: #ccc;
+    background: #ccc;
+    color: darkmagenta;
+}
+
+td.six {
+    border-color: #ccc;
+    background: #ccc;
+    color: deepskyblue;
+}
+
+td.seven {
+    border-color: #ccc;
+    background: #ccc;
+    color: gold;
+}
+
+td.eight {
+    border-color: #ccc;
+    background: #ccc;
+    color: lightpink;
+}
+
+.info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mine {
+    background: #d9d9d9 url(./img/mine.png) no-repeat center;
+    background-size: cover;
+}
+
+.flag {
+    background: #cccccc url(./img/flag2.png) no-repeat center;
+    background-size: cover;
+}
